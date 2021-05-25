@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Busca tu\n\n \n"; ObjectID = "0h9-Oc-1jP"; */
+"0h9-Oc-1jP.text" = "Busca tu\n\n \n";
+
+/* Class = "UILabel"; text = "Registrarse"; ObjectID = "1HM-vf-7Yj"; */
+"1HM-vf-7Yj.text" = "Registrarse";
+
+/* Class = "UIButton"; normalTitle = "ENVIAR"; ObjectID = "1JH-WA-ntA"; */
+"1JH-WA-ntA.normalTitle" = "ENVIAR";
+
+/* Class = "UITextField"; text = "E-mail de Recuperación"; ObjectID = "302-hn-tQ9"; */
+"302-hn-tQ9.text" = "E-mail de Recuperación";
+
+/* Class = "UIButton"; normalTitle = "REGISTRATE"; ObjectID = "42t-7a-3ce"; */
+"42t-7a-3ce.normalTitle" = "REGISTRATE";
+
+/* Class = "UILabel"; text = "Correo"; ObjectID = "4J7-b8-lbO"; */
+"4J7-b8-lbO.text" = "Correo";
+
+/* Class = "UITextField"; text = "Contraseña"; ObjectID = "8rU-97-vHH"; */
+"8rU-97-vHH.text" = "Contraseña";
+
+/* Class = "UITextField"; text = "Apellido"; ObjectID = "EUw-1f-aLa"; */
+"EUw-1f-aLa.text" = "Apellido";
+
+/* Class = "UITextField"; text = "Teléfono de Recuperación"; ObjectID = "KPf-pC-YA2"; */
+"KPf-pC-YA2.text" = "Teléfono de Recuperación";
+
+/* Class = "UITextField"; text = "Contraseña"; ObjectID = "PLK-tR-ClE"; */
+"PLK-tR-ClE.text" = "Contraseña";
+
+/* Class = "UITextField"; text = "E-mail"; ObjectID = "V8C-34-ZkS"; */
+"V8C-34-ZkS.text" = "E-mail";
+
+/* Class = "UILabel"; text = "Acceder"; ObjectID = "Y9A-3k-tt2"; */
+"Y9A-3k-tt2.text" = "Acceder";
+
+/* Class = "UIButton"; normalTitle = "Teléfono"; ObjectID = "dl2-Qv-gIV"; */
+"dl2-Qv-gIV.normalTitle" = "Teléfono";
+
+/* Class = "UIButton"; normalTitle = "¿Haz olvidado tu contraseña?"; ObjectID = "eb8-Yh-e8f"; */
+"eb8-Yh-e8f.normalTitle" = "¿Haz olvidado tu contraseña?";
+
+/* Class = "UIButton"; normalTitle = "REGISTRATE"; ObjectID = "gqf-kC-hEd"; */
+"gqf-kC-hEd.normalTitle" = "REGISTRATE";
+
+/* Class = "UIButton"; normalTitle = "INICIAR SESION"; ObjectID = "ihu-Mn-XBb"; */
+"ihu-Mn-XBb.normalTitle" = "INICIAR SESION";
+
+/* Class = "UITextField"; text = "E-mail"; ObjectID = "k4d-MB-L8i"; */
+"k4d-MB-L8i.text" = "E-mail";
+
+/* Class = "UILabel"; text = "LopZApp"; ObjectID = "lgS-yY-ly0"; */
+"lgS-yY-ly0.text" = "LopZApp";
+
+/* Class = "UITextField"; text = "Nombre"; ObjectID = "miV-ZT-UpH"; */
+"miV-ZT-UpH.text" = "Nombre";
+
+/* Class = "UIButton"; normalTitle = "Edad"; ObjectID = "oBR-TD-q4p"; */
+"oBR-TD-q4p.normalTitle" = "Edad";
