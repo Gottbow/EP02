@@ -104,6 +104,7 @@
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="clickBtnLogin:" destination="1ca-t9-rVv" eventType="touchUpInside" id="Uwe-Y7-ZZS"/>
                                     <segue destination="Ti3-FR-tAd" kind="show" id="E3E-Mt-Mo2"/>
                                 </connections>
                             </button>
@@ -114,6 +115,7 @@
                     <navigationItem key="navigationItem" id="0tp-WB-WOF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ILc-Uu-0F7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="1ca-t9-rVv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3621.739130434783" y="60.9375"/>
         </scene>
@@ -215,7 +217,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Busca tu
 
- </string>
+ 
+</string>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="61"/>
                                 <color key="textColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
