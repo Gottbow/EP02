@@ -91,6 +91,7 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Contraseña" borderStyle="bezel" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" id="PLK-tR-ClE">
@@ -102,9 +103,12 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="viewContent:" destination="1ca-t9-rVv" eventType="editingDidEnd" id="rMB-gi-Jwi"/>
+                                </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihu-Mn-XBb">
-                                <rect key="frame" x="122" y="469" width="171" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihu-Mn-XBb">
+                                <rect key="frame" x="122" y="469" width="170" height="50"/>
                                 <color key="backgroundColor" red="0.87055837560000005" green="0.4669719967" blue="0.38504412360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="GF2-8y-cMe"/>
@@ -124,16 +128,26 @@
                                 <color key="textColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zXO-2J-4Pc">
+                                <rect key="frame" x="2" y="235" width="414" height="198"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="06P-F8-Vbx"/>
+                                    <constraint firstAttribute="height" constant="198" id="C78-UE-W8Q"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Da-jH-l5e"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
+                            <constraint firstItem="zXO-2J-4Pc" firstAttribute="trailing" secondItem="4Da-jH-l5e" secondAttribute="trailing" id="3IR-Rn-N7d"/>
                             <constraint firstItem="gqf-kC-hEd" firstAttribute="top" secondItem="ihu-Mn-XBb" secondAttribute="bottom" constant="39" id="53e-ic-Ny6"/>
                             <constraint firstItem="ihu-Mn-XBb" firstAttribute="leading" secondItem="4Da-jH-l5e" secondAttribute="leading" constant="122" id="Btv-17-PUm"/>
                             <constraint firstItem="eb8-Yh-e8f" firstAttribute="leading" secondItem="4Da-jH-l5e" secondAttribute="leading" constant="97" id="RGe-9x-C1a"/>
                             <constraint firstItem="gqf-kC-hEd" firstAttribute="leading" secondItem="4Da-jH-l5e" secondAttribute="leading" constant="145" id="lIh-DP-duY"/>
                             <constraint firstItem="ihu-Mn-XBb" firstAttribute="centerX" secondItem="PLK-tR-ClE" secondAttribute="centerX" id="n09-vg-68I"/>
                             <constraint firstItem="ihu-Mn-XBb" firstAttribute="top" secondItem="PLK-tR-ClE" secondAttribute="bottom" constant="54" id="nCb-fn-DJQ"/>
+                            <constraint firstItem="zXO-2J-4Pc" firstAttribute="top" secondItem="Y9A-3k-tt2" secondAttribute="bottom" constant="55" id="oQK-Qc-VBK"/>
                             <constraint firstItem="Y9A-3k-tt2" firstAttribute="centerX" secondItem="lkF-uP-jQI" secondAttribute="centerX" constant="-3" id="oqS-gH-TNd"/>
                             <constraint firstItem="Y9A-3k-tt2" firstAttribute="centerY" secondItem="lkF-uP-jQI" secondAttribute="centerY" constant="-264" id="vOi-uC-JHX"/>
                             <constraint firstItem="4Da-jH-l5e" firstAttribute="bottom" secondItem="eb8-Yh-e8f" secondAttribute="bottom" constant="38" id="wB0-f4-zQA"/>
@@ -155,7 +169,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Registrarse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1HM-vf-7Yj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registrarse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1HM-vf-7Yj">
                                 <rect key="frame" x="82" y="99" width="251" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="49"/>

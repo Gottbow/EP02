@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+        
     @IBOutlet weak var cnsVerticalContent:
         NSLayoutConstraint!
     
@@ -27,10 +28,12 @@ class ViewController: UIViewController {
         
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         self.unregisterKeyboardNotification()
     }
+    
+
 
 }
 
@@ -53,8 +56,8 @@ extension ViewController {
     
     @objc func keyboardWillShow(_ notification: Notification) {
         
-        _ = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0
-        _ = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect ?? .zero
+        let keyboardAnimationDuration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0
+        let keyboardFrame = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect ?? .zero
         
         
     }
@@ -64,7 +67,6 @@ extension ViewController {
         let keyboardAnimationDuration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double ?? 0
         
         UIView.animate(withDuration: keyboardAnimationDuration){
-            self.cnsVerticalContent.constant = 0
             self.view.layoutIfNeeded()
         }
         
